@@ -11,3 +11,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-bg{
+  background-color: grey;
+  padding: 0.2rem 0px;
+  z-index: 99;
+  position: relative;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+
+.navbar li{
+  padding: 0 2rem;
+  width: 10rem;
+  height: 2rem;
+}
+
+.navbar li a:hover{
+  color: orange !important;
+}
+
+.btn-style{
+  border-radius: 4rem;
+  background-color: blue;
+  color: orange;
+}
+
+.btn-style:first-child{
+  margin-right: 2rem;
+}
+
+.btn-style:hover{
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+
+}
+
+
+.image { 
+  position: relative; 
+  width: 100%; /* for IE 6 */
+}
+
+/* h2 { 
+ position: absolute; 
+ top: 300px; 
+ left: 0; 
+ width: 100%; 
+} */
+
+/* h2 span { 
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  /* background: rgba(0, 0, 0, 0.4);
+  padding: 10px; 
+} */ 
+
+hr{
+  color: red;
+  opacity: 100%;
+  border: 1px dashed red;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+footer{
+  padding: 5rem 0;
+  background-color: #182334;
+  color: #fff;
+
+}
+
+footer li{
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  margin: 1rem 0;
+
+}
+
+footer.main-hero-para{
+  margin: 0;
+}
+
+form{
+  padding: 0;
+  margin: 0;
+}
+
+h6{
+  color: red;
+}
